@@ -1,0 +1,81 @@
+
+/* Sponsors.html */
+.sponsorsbox {
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	border: 5px solid white;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+
+#goldMember{
+	color: rgb(247, 223, 9); 
+	font-size: 20px; 
+}
+
+#silverMember{
+	color: rgb(168, 168, 168); 
+	font-size: 20px; 
+}
+
+
+.allsponsors {
+	margin-top: 40px;
+	/* display: inline-block; */
+	width: 100%;
+} 
+
+
+.imageStyle{
+	max-width: 300px;
+	margin: 20px 20px; 
+}
+
+
+/* Table */
+
+.table-wrapper {
+	-webkit-overflow-scrolling: touch;
+	overflow-x: auto;
+}
+
+table {
+	margin: 0 0 2em 0;
+	width: 100%;
+}
+
+	table tbody tr {
+		border: solid 1px rgba(255, 255, 255, 0.125);
+		border-left: 0;
+		border-right: 0;
+	}
+
+		table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(255, 255, 255, 0.025);
+		}
+
+	table td {
+		padding: 0.75em 0.75em;
+	}
+
+	table th {
+		color: #ffffff;
+		font-size: 0.9em;
+		font-weight: 600;
+		padding: 0 0.75em 0.75em 0.75em;
+		text-align: left;
+	}
+
+	table thead {
+		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+	}
+
+	table tfoot {
+		border-top: solid 2px rgba(255, 255, 255, 0.125);
+	}
