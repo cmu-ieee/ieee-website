@@ -1,5 +1,13 @@
 
 /* Sponsors.html */
+#sponsorItems{
+	text-align: center; 
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	  
+}
+
 .sponsorsbox {
 	padding-top: 20px;
 	display: flex;
@@ -16,12 +24,12 @@
 
 #goldMember{
 	color: rgb(247, 223, 9); 
-	font-size: 20px; 
+	font-size: 25px; 
 }
 
 #silverMember{
 	color: rgb(168, 168, 168); 
-	font-size: 20px; 
+	font-size: 25px; 
 }
 
 
